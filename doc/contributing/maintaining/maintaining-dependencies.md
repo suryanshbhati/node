@@ -17,7 +17,7 @@ This a list of all the dependencies:
 * [corepack][]
 * [googletest 116b7e5][]
 * [histogram 0.11.8][]
-* [icu-small 73.2][]
+* [icu-small 74.1][]
 * [libuv 1.47.0][]
 * [llhttp 9.1.3][]
 * [minimatch 9.0.3][]
@@ -328,7 +328,7 @@ performance improvements not currently available in standard zlib.
 [dependency-update-action]: ../../../.github/workflows/tools.yml
 [googletest 116b7e5]: #googletest-116b7e5
 [histogram 0.11.8]: #histogram-0118
-[icu-small 73.2]: #icu-small-732
+[icu-small 74.1]: #icu-small-741
 [libuv 1.47.0]: #libuv-1470
 [llhttp 9.1.3]: #llhttp-913
 [maintaining-V8]: ./maintaining-V8.md
