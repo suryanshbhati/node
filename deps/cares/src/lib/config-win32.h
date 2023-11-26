@@ -87,6 +87,15 @@
 #define HAVE_SYS_TYPES_H 1
 #define HAVE_SYS_STAT_H  1
 
+/* If we are building with OpenWatcom, we need to specify that we have
+ * <stdint.h>. */
+#if defined(__WATCOMC__)
+#define HAVE_STDINT_H
+#endif
+
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_SYS_STAT_H  1
+
 /* ---------------------------------------------------------------- */
 /*                        OTHER HEADER INFO                         */
 /* ---------------------------------------------------------------- */
